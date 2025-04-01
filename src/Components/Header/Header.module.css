@@ -1,0 +1,33 @@
+.header {
+    background-color: var(--dark-blue) !important;
+
+    a,
+    .navbar-toggler.collapsed,
+    .navbar-toggler-icon {
+        color: white !important;
+        font-family: var(--primary-font) !important;
+
+    }
+
+
+
+}
+
+.brand {
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--purple-primary) !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-family: var(--primary-font) !important;
+}
+
+.brand:hover {
+    color: #9c0cd1;
+}
+
+#customNavbarToggle {
+    border: none !important;
+    background-color: var(--purple-primary) !important;
+}

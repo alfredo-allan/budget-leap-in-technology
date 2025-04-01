@@ -1,0 +1,37 @@
+:root {
+    --dark-blue: #2a2e3bbf !important;
+    --primary-font: "Bebas Neue", sans-serif;
+    --purple-primary: #a33da3;
+    /* Atualize a variável */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: black !important;
+    color: white !important;
+    font-family: var(--primary-font);
+    letter-spacing: 2px;
+    position: relative;
+    /* Necessário para posicionar o pseudo-elemento */
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../Assets/Img/space-background.jpeg');
+    opacity: 0.3;
+    /* Ajuste o valor da opacidade */
+    z-index: -1;
+    /* Coloca o pseudo-elemento atrás do conteúdo */
+    background-size: cover;
+    /* Garante que a imagem cubra todo o elemento */
+    background-position: center;
+    /* Centraliza a imagem */
+}

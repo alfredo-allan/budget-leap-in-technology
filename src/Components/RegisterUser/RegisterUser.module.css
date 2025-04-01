@@ -1,0 +1,102 @@
+.content-container {
+    padding: 20px;
+    width: 600px !important;
+    font-family: var(--primary-font) !important;
+    color: var(--purple-primary) !important;
+    background-color: rgba(0, 0, 0, 0.636) !important;
+    margin-top: 5%;
+    border-radius: 7px;
+    margin-bottom: 12vh;
+    font-size: 23px;
+
+
+}
+
+.container-register-input {
+    background-color: rgba(0, 0, 0, 0.636) !important;
+    color: var(--purple-primary) !important;
+    border: 1px solid var(--purple-primary) !important;
+    font-size: 20px !important;
+
+}
+
+.container-register::placeholder {
+    color: var(--purple-primary) !important;
+    opacity: 0.1 !important;
+}
+
+.container-register-form-control {
+    background-color: rgba(0, 0, 0, 0.636) !important;
+    color: var(--purple-primary) !important;
+    border: 1px solid var(--purple-primary) !important;
+    outline: none;
+    height: 40px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    margin: 0px -288px;
+    font-size: 20px !important;
+
+
+}
+
+.content-label-date {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+
+}
+
+
+
+
+.btn-submit-register {
+    background-color: var(--purple-primary) !important;
+    color: white !important;
+    border: 1px solid black !important;
+    font-family: var(--primary-font) !important;
+    transition: background-color 0.3sease;
+    width: 80%;
+    margin-top: 25px;
+    font-size: 20px;
+    height: 45px;
+}
+
+.btn-submit-register:active {
+    background-color: #9370DB !important;
+}
+
+/* Register.module.css */
+
+
+.btn-submit-register {
+    background-color: #a33da3;
+    border-color: #a33da3;
+}
+
+.container-register-conditions {
+    background-color: rgba(0, 0, 0, 0.636) !important;
+    color: var(--purple-primary) !important;
+    border: 1px solid var(--purple-primary) !important;
+    height: 250px !important;
+    font-size: 20px !important;
+
+}
+
+.container-register-cnpj {
+    background-color: rgba(0, 0, 0, 0.636) !important;
+    color: var(--purple-primary) !important;
+    border: 1px solid var(--purple-primary) !important;
+    font-size: 20px !important;
+    text-align: center !important;
+
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        width: 100% !important;
+    }
+}
