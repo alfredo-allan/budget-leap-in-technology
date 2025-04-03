@@ -25,12 +25,6 @@
     align-items: center;
 }
 
-.footerText {
-    text-align: center;
-    margin-left: 60% !important;
-    text-wrap: nowrap !important;
-}
-
 .footerImage {
     width: 25px;
     display: flex;
@@ -49,4 +43,14 @@
     font-size: 11px;
     justify-content: end;
     flex-flow: inherit;
+    display: none;
+}
+
+@media (max-width: 1200px) {
+
+    .footerText {
+        justify-content: end !important;
+        margin-left: 26% !important;
+
+    }
 }

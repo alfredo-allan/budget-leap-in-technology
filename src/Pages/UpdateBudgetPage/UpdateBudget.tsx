@@ -1,18 +1,18 @@
 import React from 'react';
 import Header from '../../Components/Header/Header'; // Ajuste o caminho do Header
 import Footer from '../../Components/Footer/Footer'; // Ajuste o caminho do Footer
-import RegisterBudget from '../../Components/RegisterBudget/RegisterBudget'; // Ajuste o caminho do Register
+import UpdateBudget from '../../Components/UpdateBudget/UpdateBudget'; // Ajuste o caminho do Register
 
-function RegisterBudgetPage() {
+function UpdateBudgetPage() {
     return (
         <div>
             <Header />
             <main>
-                <RegisterBudget />
+                <UpdateBudget />
             </main>
             <Footer />
         </div>
     );
 }
 
-export default RegisterBudgetPage;
+export default UpdateBudgetPage;

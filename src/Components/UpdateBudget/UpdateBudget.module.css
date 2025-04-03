@@ -1,31 +1,38 @@
-.content-container {
+.container-update {
     padding: 20px;
     width: 600px !important;
     font-family: var(--primary-font) !important;
     color: var(--purple-primary) !important;
     background-color: var(--background-black-form) !important;
-    margin-top: 5%;
-    border-radius: 7px;
-    margin-bottom: 12vh;
-    font-size: 23px;
-
-
+    margin-top: 3vh;
+    margin-bottom: 15vh;
 }
 
-.container-register-input {
+.container-update-input {
     background-color: var(--background-black-form) !important;
     color: var(--purple-primary) !important;
     border: 1px solid var(--purple-primary) !important;
     font-size: 20px !important;
+}
+
+.container-update-input-text-center::-webkit-outer-spin-button,
+.container-update-input-text-center::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+}
+
+.container-update-input-text-center {
+    -moz-appearance: textfield !important;
+}
+
+.content-label-date {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
 
 }
 
-.container-register::placeholder {
-    color: var(--purple-primary) !important;
-    opacity: 0.1 !important;
-}
-
-.container-register-form-control {
+.container-update-date {
     background-color: var(--background-black-form) !important;
     color: var(--purple-primary) !important;
     border: 1px solid var(--purple-primary) !important;
@@ -43,15 +50,15 @@
 
 }
 
-.content-label-date {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 40px;
+@media (max-width: 768px) {
+    .container-update {
+        width: 100% !important;
+    }
 
+    .container-update-date {
+        margin: 0;
+    }
 }
-
-
-
 
 .btn-submit-register {
     background-color: var(--purple-primary) !important;
@@ -77,26 +84,10 @@
     border-color: #a33da3;
 }
 
-.container-register-conditions {
-    background-color: var(--background-black-form) !important;
-    color: var(--purple-primary) !important;
-    border: 1px solid var(--purple-primary) !important;
-    height: 250px !important;
-    font-size: 20px !important;
-
-}
-
-.container-register-cnpj {
+.container-update-input-text-center {
     background-color: var(--background-black-form) !important;
     color: var(--purple-primary) !important;
     border: 1px solid var(--purple-primary) !important;
     font-size: 20px !important;
-    text-align: center !important;
-
-}
-
-@media (max-width: 768px) {
-    .content-container {
-        width: 100% !important;
-    }
+    text-align: center;
 }

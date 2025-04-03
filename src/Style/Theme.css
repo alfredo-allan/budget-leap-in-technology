@@ -3,6 +3,7 @@
     --primary-font: "Bebas Neue", sans-serif;
     --purple-primary: #a33da3;
     /* Atualize a variável */
+    --background-black-form: rgba(0, 0, 0, 0.636);
 }
 
 body {

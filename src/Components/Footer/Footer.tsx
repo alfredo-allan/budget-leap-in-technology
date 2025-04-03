@@ -11,7 +11,7 @@ import linuxIco from '../../Assets/Img/linux.png';
 const Footer = () => {
     return (
         <footer className={`${styles.footer} ${styles.stickyFooter}`}>
-            <Container>
+            <Container className={styles['content-footer']}>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} className="text-center">
                         <p className={styles.footerText}>&copy; {new Date().getFullYear()} Leap In Technology. Todos os direitos reservados.</p>

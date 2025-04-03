@@ -3,14 +3,18 @@
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
+    "axios": "^1.8.4",
     "bootstrap": "^5.3.3",
     "date-fns": "^4.1.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.9",
     "react-datepicker": "^8.2.1",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.4.1",
     "react-scripts": "^5.0.1",
+    "react-to-print": "^3.0.5",
     "web-vitals": "^4.2.4"
   },
   "scripts": {

@@ -3,7 +3,7 @@ import Header from '../../Components/Header/Header'; // Ajuste o caminho do Head
 import Footer from '../../Components/Footer/Footer'; // Ajuste o caminho do Footer
 import RegisterUser from '../../Components/RegisterUser/RegisterUser'; // Ajuste o caminho do Register
 
-function RegisterPage() {
+function RegisterUserPage() {
     return (
         <div>
             <Header />
@@ -15,4 +15,4 @@ function RegisterPage() {
     );
 }
 
-export default RegisterPage;
+export default RegisterUserPage;

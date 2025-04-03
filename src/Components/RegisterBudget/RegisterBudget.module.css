@@ -3,7 +3,7 @@
     width: 600px !important;
     font-family: var(--primary-font) !important;
     color: var(--purple-primary) !important;
-    background-color: rgba(0, 0, 0, 0.636) !important;
+    background-color: var(--background-black-form) !important;
     margin-top: 5%;
     border-radius: 7px;
     margin-bottom: 12vh;
@@ -13,7 +13,7 @@
 }
 
 .container-register-input {
-    background-color: rgba(0, 0, 0, 0.636) !important;
+    background-color: var(--background-black-form) !important;
     color: var(--purple-primary) !important;
     border: 1px solid var(--purple-primary) !important;
     font-size: 20px !important;
@@ -26,7 +26,7 @@
 }
 
 .container-register-form-control {
-    background-color: rgba(0, 0, 0, 0.636) !important;
+    background-color: var(--background-black-form) !important;
     color: var(--purple-primary) !important;
     border: 1px solid var(--purple-primary) !important;
     outline: none;
@@ -78,7 +78,7 @@
 }
 
 .container-register-conditions {
-    background-color: rgba(0, 0, 0, 0.636) !important;
+    background-color: var(--background-black-form) !important;
     color: var(--purple-primary) !important;
     border: 1px solid var(--purple-primary) !important;
     height: 250px !important;
@@ -87,7 +87,7 @@
 }
 
 .container-register-cnpj {
-    background-color: rgba(0, 0, 0, 0.636) !important;
+    background-color: var(--background-black-form) !important;
     color: var(--purple-primary) !important;
     border: 1px solid var(--purple-primary) !important;
     font-size: 20px !important;
@@ -104,3 +104,4 @@
         margin: 0;
     }
 }
+

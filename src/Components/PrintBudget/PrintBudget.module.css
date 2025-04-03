@@ -1,0 +1,144 @@
+.print-container {
+    font-family: 'Bebas Neue', sans-serif;
+    /* Substitua 'Roboto' pelo nome da sua fonte */
+    background-image: url('../../Assets/Img/background-budgets.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: var(--background-black-form);
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+    font-family: var(--primary-font) !important;
+    font-size: small;
+    background-color: white !important;
+    height: auto;
+
+}
+
+.input-print {
+    background-color: var(--background-black-form) !important;
+    border-color: var(--purple-primary) !important;
+    color: var(--purple-primary) !important;
+    letter-spacing: 1px;
+    font-family: var(--primary-font) !important;
+    text-align: center !important;
+
+}
+
+
+.input-print::-webkit-outer-spin-button,
+.input-print::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+}
+
+.input-print {
+    -moz-appearance: textfield !important;
+}
+
+
+
+.btn-submit-register {
+    background-color: var(--purple-primary) !important;
+    color: white !important;
+    border: 1px solid black !important;
+    font-family: var(--primary-font) !important;
+    transition: background-color 0.3sease;
+    width: 50%;
+    margin-top: 25px;
+    font-size: 20px;
+    height: 45px;
+    margin-bottom: 10vh;
+}
+
+.container-print-title {
+    color: var(--purple-primary);
+    font-weight: 400;
+    font-family: var(--primary-font) !important;
+
+}
+
+
+.container-print-label,
+.info-adicionais-title {
+    font-family: var(--primary-font) !important;
+    color: var(--purple-primary) !important;
+}
+
+.content-form {
+    width: 60%;
+    text-align: center;
+    margin-left: 19%;
+}
+
+.return-budgets-strong {
+    color: var(--purple-primary);
+    font-weight: 900;
+}
+
+.return-budgets-cnpj {
+    font-weight: 900;
+}
+
+.header-print {
+    text-align: left;
+    margin-top: 10vh;
+}
+
+.return-budgets-strong,
+.items,
+.total,
+.frete,
+.condicoes,
+.info-adicionais,
+.footer-content {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .print-container {
+        width: 100%;
+    }
+}
+
+@media print {
+    .print-container {
+        background-color: white !important;
+        /* background-image: none !important; */
+        color: black !important;
+        /* Adicionado !important para cor */
+        font-family: var(--primary-font) !important;
+        /* Adicionado !important para fonte */
+    }
+}
+
+.return-budgets-cnpj {
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+}
+
+.content-footer-print {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: dashed;
+    border-color: var(--purple-primary);
+    padding: 10px;
+
+}
+
+.return-budgets-text {
+    background-color: var(--purple-primary);
+    width: 20%;
+    color: white;
+
+
+}
+
+.return-budgets-strong-value {
+    background-color: var(--purple-primary);
+    color: white;
+    margin: 1px;
+}

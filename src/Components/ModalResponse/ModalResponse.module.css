@@ -1,0 +1,19 @@
+.content-modal-response {
+    background-color: black !important;
+
+}
+
+.content-modal-response-title,
+.content-modal-response-body,
+.content-modal-response-footer {
+    background-color: black !important;
+    color: var(--purple-primary) !important;
+    font-weight: bold !important;
+}
+
+.content-modal-response-btn-close {
+    background-color: var(--purple-primary) !important;
+    color: white !important;
+    border: none !important;
+    width: 30%;
+}

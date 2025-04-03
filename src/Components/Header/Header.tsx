@@ -16,11 +16,11 @@ const Header = () => {
                     <Nav className="me-auto">
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link as={Link} to="/register">Registar Orçamentos</Nav.Link>
-                        <Nav.Link as={Link} to="/about">Consultar Orçamentos</Nav.Link>
-                        <Nav.Link as={Link} to="/about">Editar Orçamento</Nav.Link>
+                        <Nav.Link as={Link} to="/consult-budgets">Consultar Orçamentos</Nav.Link>
+                        <Nav.Link as={Link} to="/update-budgets">Editar Orçamento</Nav.Link>
                         <Nav.Link as={Link} to="/register-user">Cadastrar Clientes</Nav.Link>
-                        <Nav.Link as={Link} to="/about">Consultar Clientes</Nav.Link>
-                        <Nav.Link as={Link} to="/about">Imprimir Orçamento</Nav.Link>
+                        <Nav.Link as={Link} to="/consult-customers">Consultar Clientes</Nav.Link>
+                        <Nav.Link as={Link} to="/print-budget/:budgetId">Imprimir Orçamento</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
