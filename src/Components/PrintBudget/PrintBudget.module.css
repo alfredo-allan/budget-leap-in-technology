@@ -142,3 +142,149 @@
     color: white;
     margin: 1px;
 }
+
+.content-print {
+    margin-bottom: 15vh;
+}
+
+.btn-subit-view {
+    background-color: var(--purple-primary) !important;
+    color: white !important;
+    border: 1px solid black !important;
+    font-family: var(--primary-font) !important;
+    transition: background-color 0.3sease;
+    width: 50%;
+    margin-top: 25px;
+    font-size: 20px;
+    height: 45px;
+}
+
+.btn-subit-view:active {
+    background-color: #9370DB !important;
+}
+
+.table-view-input {
+    background-color: var(--background-black-form) !important;
+    color: var(--purple-primary) !important;
+    text-align: center;
+    border-color: var(--purple-primary) !important;
+
+}
+
+
+.table-view-input::placeholder {
+    color: var(--purple-primary) !important;
+}
+
+.table-view-input:focus {
+    outline: none !important;
+    /* Remove o contorno padrão do navegador */
+    border-color: var(--purple-primary);
+    /* Altera a cor da borda ao focar */
+    box-shadow: 0 0 0 3px var(--dark-blue);
+    /* Adiciona uma sombra para um efeito mais visível */
+    /* Ou, se preferir apenas mudar a cor do texto ao focar */
+    color: var(--purple-primary);
+}
+
+.table-view {
+    background-color: var(--background-black-form) !important;
+    color: white;
+    /* caso queira letras claras */
+}
+
+.table-view thead,
+.table-view tbody,
+.table-view tr,
+.table-view th,
+.table-view td {
+    background-color: var(--background-black-form) !important;
+    color: white !important;
+    border-color: var(--purple-primary) !important;
+    /* exemplo para bordas mais visíveis */
+}
+
+/* No seu arquivo CSS Module (ex: styles.module.css) */
+
+/* Se você também tem estilos para .table-view no mesmo módulo, mantenha-os */
+.tableView {
+    /* Nota: camelCase para classes em módulos */
+    background-color: var(--background-black-form);
+    color: var(--purple-primary);
+    text-align: center;
+}
+
+/* Estilos para o input específico com a classe 'table-view-input' */
+.table-view-input {
+    /* Seus estilos existentes para este input, por exemplo: */
+    background-color: #333;
+    border: 1px solid #555;
+    padding: 8px;
+    color: #EEE;
+    border-radius: 4px;
+}
+
+/* Remove o spin button para inputs do tipo "number" que têm a classe 'table-view-input' */
+/* Para navegadores baseados em WebKit (Chrome, Safari, Edge, Opera) */
+.table-view-input::-webkit-outer-spin-button,
+.table-view-input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+/* Para Firefox */
+.table-view-input {
+    -moz-appearance: textfield;
+}
+
+/* Opcional: Estilos para o foco, como discutimos antes */
+.table-view-input:focus {
+    outline: none;
+    border-color: var(--focus-color);
+    /* Defina esta variável em seu :root ou onde suas variáveis de cor estão */
+    box-shadow: 0 0 0 3px var(--focus-color-shadow);
+    /* Defina esta variável também */
+    color: var(--focus-text-color);
+    /* E esta */
+}
+
+.btn-subit-table {
+    background-color: var(--purple-primary) !important;
+    color: white !important;
+    border: 1px solid black !important;
+    font-family: var(--primary-font) !important;
+    transition: background-color 0.3sease;
+    /* width: 50%; */
+    margin-top: 25px;
+    font-size: 20px;
+    height: 45px;
+    letter-spacing: 2px;
+}
+
+.print-button {
+    background-color: var(--purple-primary) !important;
+    color: white !important;
+    border: 1px solid black !important;
+    font-family: var(--primary-font) !important;
+    transition: background-color 0.3sease;
+    width: 50%;
+    margin-top: 25px;
+    font-size: 20px;
+    height: 45px;
+}
+
+.print-button:active {
+    background-color: #9370DB !important;
+}
+
+@media (max-width: 768px) {
+    .table-wrapper {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        /* iOS scroll suave */
+    }
+
+    .table-wrapper table {
+        white-space: nowrap;
+    }
+}
